@@ -18,7 +18,7 @@ const input = prompt('Введите целое число в интервале
 const dayNumber = Number(input);
 
 
-if (!Number.isInteger(dayNumber) || Number.isNaN(numPositive) || dayNumber < 1 || dayNumber > 31) {
+if (!Number.isInteger(dayNumber) || Number.isNaN(dayNumber) || dayNumber < 1 || dayNumber > 31) {
     console.log("Неверное значение");
 }
 else if (dayNumber >= 1 && dayNumber <= 10) {
