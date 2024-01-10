@@ -24,5 +24,8 @@
 */
 
 const inputNumber = +prompt('Введите целое число: ');
+const hundreds = Math.floor((inputNumber % 1000) / 100);
+const tens = Math.floor((inputNumber % 100) / 10);
+const units = inputNumber % 10;
 
-console.log(`В числе ${inputNumber} количество сотен: ${(Math.floor((inputNumber % 1000) / 100))}, десятков: ${(Math.floor((inputNumber % 100) / 10))}, единиц: ${inputNumber % 10}.`);
+console.log(`В числе ${inputNumber} количество сотен: ${hundreds}, десятков: ${tens}, единиц: ${units}.`);

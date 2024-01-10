@@ -21,12 +21,12 @@ const dayNumber = Number(input);
 if (!Number.isInteger(dayNumber) || Number.isNaN(dayNumber) || dayNumber < 1 || dayNumber > 31) {
     console.log("Неверное значение");
 }
-else if (dayNumber >= 1 && dayNumber <= 10) {
+else if (dayNumber <= 10) {
     console.log(`Число ${dayNumber} попадает в первую декаду месяца.`);
 }
-else if (dayNumber >= 11 && dayNumber <= 20) {
+else if (dayNumber <= 20) {
     console.log(`Число ${dayNumber} попадает во вторую декаду месяца.`);
 }
-else if (dayNumber >= 21 && dayNumber <= 31) {
+else if (dayNumber <= 31) {
     console.log(`Число ${dayNumber} попадает в третью декаду месяца.`);
 }

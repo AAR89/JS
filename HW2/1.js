@@ -19,16 +19,13 @@ const inputNegative = prompt('Введите отрицательное числ
 const numPositive = Number(inputPositive);
 const numNegative = Number(inputNegative);
 
-
 if (Number.isNaN(numPositive)) {
     console.log(`${inputPositive} не число.`);
     if (Number.isNaN(numNegative)) {
         console.log(`${inputNegative} не число.`);
     }
-}
-else if (numPositive > 0 && numNegative < 0) {
+} else if (numPositive > 0 && numNegative < 0) {
     console.log(`Все значения верные.`);
-}
-else {
+} else {
     console.log(`Одно или более значений некорректно.`);
 }
