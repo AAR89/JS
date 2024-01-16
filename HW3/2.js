@@ -9,8 +9,7 @@
 сообщение "Размер заработной платы за вычетом налогов равен N."
 */
 
-const input = prompt('Введите число: ');
-const sum = Number(input);
+const sum = Number(prompt('Введите число: '));
 
 if (!Number.isInteger(sum) || Number.isNaN(sum)) {
     console.log("Значение задано неверно");

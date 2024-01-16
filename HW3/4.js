@@ -25,11 +25,8 @@ function summa(firstNumber, secondNumber) {
 function diff(firstNumber, secondNumber) {
     if (firstNumber > secondNumber) {
         return firstNumber - secondNumber;
-    } else if (secondNumber > firstNumber) {
-        return secondNumber - firstNumber;
-    } else {
-        return 0;
     }
+    return secondNumber - firstNumber;
 }
 
 function multi(firstNumber, secondNumber) {
@@ -40,7 +37,7 @@ function div(firstNumber, secondNumber) {
     return firstNumber / secondNumber;
 }
 
-console.log(summa(2,3));
-console.log(diff(2,3));
-console.log(multi(2,3));
-console.log(div(2,3));
+console.log(summa(2, 3));
+console.log(diff(7, 9));
+console.log(multi(2, 3));
+console.log(div(2, 3));

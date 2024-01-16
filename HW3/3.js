@@ -15,13 +15,7 @@ const secondNumber = +prompt('Введите второе число: ');
 const thirdNumber = +prompt('Введите третье число: ');
 
 function maxNumber(firstNumber, secondNumber, thirdNumber) {
-    if (firstNumber >= secondNumber && firstNumber >= thirdNumber) {
-        alert(`"Макимальное значение среди чисел ${firstNumber}, ${secondNumber}, ${thirdNumber} равно ${firstNumber}`)
-    } else if (secondNumber >= firstNumber && secondNumber >= thirdNumber) {
-        alert(`"Макимальное значение среди чисел ${firstNumber}, ${secondNumber}, ${thirdNumber} равно ${secondNumber}`)
-    } else {
-        alert(`"Макимальное значение среди чисел ${firstNumber}, ${secondNumber}, ${thirdNumber} равно ${thirdNumber}`)
-    }
+    alert(`Макимальное значение среди чисел ${firstNumber}, ${secondNumber}, ${thirdNumber} равно ${Math.max(firstNumber, secondNumber, thirdNumber)}`)
 }
 
 maxNumber(firstNumber, secondNumber, thirdNumber);
