@@ -16,5 +16,6 @@ module.exports = {
     'cSpell': 0,
     'strict': 0,
     'quote-props': 0,
+    'no-trailing-spaces': 0,
   },
 };
