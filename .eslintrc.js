@@ -17,5 +17,6 @@ module.exports = {
     'strict': 0,
     'quote-props': 0,
     'no-trailing-spaces': 0,
+    'brace-style': 0,
   },
 };

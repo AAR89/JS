@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 /*
 Создать переменные positive и negative, в которые пользователь вводит с 
@@ -20,12 +20,12 @@ const numPositive = Number(inputPositive);
 const numNegative = Number(inputNegative);
 
 if (Number.isNaN(numPositive)) {
-    console.log(`${inputPositive} не число.`);
-    if (Number.isNaN(numNegative)) {
-        console.log(`${inputNegative} не число.`);
-    }
+  console.log(`${inputPositive} не число.`);
+  if (Number.isNaN(numNegative)) {
+    console.log(`${inputNegative} не число.`);
+  }
 } else if (numPositive > 0 && numNegative < 0) {
-    console.log(`Все значения верные.`);
+  console.log('Все значения верные.');
 } else {
-    console.log(`Одно или более значений некорректно.`);
+  console.log('Одно или более значений некорректно.');
 }
