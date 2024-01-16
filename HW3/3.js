@@ -1,4 +1,6 @@
-"use strict";
+/* eslint-disable no-shadow */
+
+'use strict';
 
 /*
 Необходимо попросить пользователя ввести три числа.
@@ -15,7 +17,7 @@ const secondNumber = +prompt('Введите второе число: ');
 const thirdNumber = +prompt('Введите третье число: ');
 
 function maxNumber(firstNumber, secondNumber, thirdNumber) {
-    alert(`Макимальное значение среди чисел ${firstNumber}, ${secondNumber}, ${thirdNumber} равно ${Math.max(firstNumber, secondNumber, thirdNumber)}`)
+  alert(`Макимальное значение среди чисел ${firstNumber}, ${secondNumber}, ${thirdNumber} равно ${Math.max(firstNumber, secondNumber, thirdNumber)}`);
 }
 
 maxNumber(firstNumber, secondNumber, thirdNumber);
