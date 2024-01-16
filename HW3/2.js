@@ -13,7 +13,7 @@ const sum = Number(prompt('Введите число: '));
 
 if (!Number.isInteger(sum) || Number.isNaN(sum)) {
     console.log("Значение задано неверно");
-} else{
+} else {
     salary(sum);
 }
 
