@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 /*
 Необходимо реализовать четыре функции, каждая функция должна принимать по два
@@ -19,22 +19,22 @@ console.log(sum(2, 6)); должно вывести число 8 в консол
 */
 
 function summa(firstNumber, secondNumber) {
-    return firstNumber + secondNumber;
+  return firstNumber + secondNumber;
 }
 
 function diff(firstNumber, secondNumber) {
-    if (firstNumber > secondNumber) {
-        return firstNumber - secondNumber;
-    }
-    return secondNumber - firstNumber;
+  if (firstNumber > secondNumber) {
+    return firstNumber - secondNumber;
+  }
+  return secondNumber - firstNumber;
 }
 
 function multi(firstNumber, secondNumber) {
-    return firstNumber * secondNumber;
+  return firstNumber * secondNumber;
 }
 
 function div(firstNumber, secondNumber) {
-    return firstNumber / secondNumber;
+  return firstNumber / secondNumber;
 }
 
 console.log(summa(2, 3));
