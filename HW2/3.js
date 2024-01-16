@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 /*
 Необходимо создать переменную dayNumber, в которую пользователь должен ввести 
@@ -17,16 +17,15 @@
 const input = prompt('Введите целое число в интервале [1, 32)');
 const dayNumber = Number(input);
 
-
 if (!Number.isInteger(dayNumber) || Number.isNaN(dayNumber) || dayNumber < 1 || dayNumber > 31) {
-    console.log("Неверное значение");
+  console.log('Неверное значение');
 }
 else if (dayNumber <= 10) {
-    console.log(`Число ${dayNumber} попадает в первую декаду месяца.`);
+  console.log(`Число ${dayNumber} попадает в первую декаду месяца.`);
 }
 else if (dayNumber <= 20) {
-    console.log(`Число ${dayNumber} попадает во вторую декаду месяца.`);
+  console.log(`Число ${dayNumber} попадает во вторую декаду месяца.`);
 }
 else if (dayNumber <= 31) {
-    console.log(`Число ${dayNumber} попадает в третью декаду месяца.`);
+  console.log(`Число ${dayNumber} попадает в третью декаду месяца.`);
 }
