@@ -18,5 +18,6 @@ module.exports = {
     'quote-props': 0,
     'no-trailing-spaces': 0,
     'brace-style': 0,
+    'indent': 0,
   },
 };
