@@ -16,7 +16,7 @@
 
 // Здесь пишем решение, данный комментарий необходимо стереть.
 
-function findNumbersArray(n) {
+function findArrayNumbers(n) {
     const array = [];
     const max = 9;
     const min = 0;
@@ -29,8 +29,8 @@ function findNumbersArray(n) {
     const sum = array.reduce((a, b) => a + b, 0);
     console.log(`Сумма всех элеменетов массивая равна: ${sum}`);
 
-    const sortArray = array.map((el) => el).sort((a, b) => a - b);
-    console.log(`Минимальный элемент массива равен: ${sortArray[0]}`);
+    const minElement = Math.min(...array);
+    console.log(`Минимальный элемент массива равен: ${minElement}`);
 
     const indexArray = [];
     for (let i = 0; i < array.length; i++) {
@@ -41,4 +41,4 @@ function findNumbersArray(n) {
     console.log('Новый массив индексов:', indexArray);
 }
 
-findNumbersArray(5);
+findArrayNumbers(5);

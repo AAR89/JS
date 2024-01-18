@@ -16,7 +16,7 @@ function showOddsAndEvenNumbers(num) {
       console.log(`${i} - это ноль`);
     } else if (i % 2 === 1) {
       console.log(`${i} - нечетное число`);
-    } else if (i % 2 === 0) {
+    } else {
       console.log(`${i} - четное число`);
     }
   }
