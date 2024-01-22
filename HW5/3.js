@@ -24,6 +24,6 @@ const products = [
 ];
 
 // eslint-disable-next-line no-return-assign
-products.forEach((price, index) => products[index].price *= 0.85);
+products.forEach((product) => product.price *= 0.85);
 
 console.log(products);
