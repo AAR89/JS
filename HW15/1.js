@@ -14,7 +14,7 @@
 • Реализовать все с помощью async/await, без цепочем then. */
 
 document.addEventListener('DOMContentLoaded', () => {
-    const accessKey = 'IVbHHsUldhEPGLgG7lTJ48FG1DZOF3ahVI7kzNb_-zQ';
+    const accessKey = '';
     const photo = document.getElementById('photo');
     const photographerName = document.getElementById('photographerName');
     const likeButton = document.getElementById('likeButton');
